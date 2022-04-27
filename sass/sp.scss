@@ -1,0 +1,60 @@
+$media-sp:768px;
+$media-width:100%;
+
+@media screen and(max-width: $media-sp) {
+    html {
+        max-width: 100%;
+
+    }
+
+    body {
+        max-width: 100%;
+
+    }
+
+    .wrapper{
+        max-width: 91.2%;
+        overflow: hidden;
+    }
+
+    header {
+        height: 51.2vw;
+
+        h1 {
+            width: 25.3vw;
+            height: 30vw;
+            top: 5.8vw;
+            left: 37.3vw;
+        }
+
+        ul {
+            display: none;
+        }
+    }
+
+    #about {
+        .about_grop {
+            .ttl {
+                font-size: 1.2rem;
+            }
+
+            .lead {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    #main {
+        h2 {
+            font-size: 1.4rem;
+            padding: 8vw 0 4.8vw 0;
+        }
+
+        main_grop {
+            width: 91;
+            margin: 0 auto;
+            background-color: #081D32;
+        }
+    }
+
+}

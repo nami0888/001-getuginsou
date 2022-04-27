@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+  html {
+    max-width: 100%;
+  }
+  body {
+    max-width: 100%;
+  }
+  .wrapper {
+    max-width: 91.2%;
+    overflow: hidden;
+  }
+  header {
+    height: 51.2vw;
+  }
+  header h1 {
+    width: 25.3vw;
+    height: 30vw;
+    top: 5.8vw;
+    left: 37.3vw;
+  }
+  header ul {
+    display: none;
+  }
+  #about .about_grop .ttl {
+    font-size: 1.2rem;
+  }
+  #about .about_grop .lead {
+    font-size: 1rem;
+  }
+  #main h2 {
+    font-size: 1.4rem;
+    padding: 8vw 0 4.8vw 0;
+  }
+  #main main_grop {
+    width: 91;
+    margin: 0 auto;
+    background-color: #081D32;
+  }
+}
+/*# sourceMappingURL=sp.css.map */

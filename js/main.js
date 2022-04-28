@@ -1,5 +1,7 @@
 $(function(){
   ScrollReveal().reveal('.animateslow', { duration: '5000',opacity:0, distance: '150px', origin: 'right',reset: 'false'});
+  ScrollReveal().reveal('.animateslow02', { duration: '5000',opacity:0, distance: '150px', origin: 'left',reset: 'false'});
+  ScrollReveal().reveal('.animateslow03', { duration: '5000',opacity:0, distance: '150px', origin: 'right',reset: 'false'});
 
   $('.slider').slick({
     fade:true,//切り替えをフェードで行う。初期値はfalse。

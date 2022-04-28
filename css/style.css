@@ -224,24 +224,24 @@ header h1 {
 /*=========== 
 お部屋
  ===========*/
-#room h2 {
-    font-size: 2.8rem;
-    letter-spacing: 1em;
-    text-align: center;
-    font-weight: lighter;
-    padding: 120px 0 50px 0;
-
-    color: #F9F4DE;
-
-}
-
-#room {
+ #room {
     margin: 0 auto;
     color: #ffffff;
     background-color: #081D32;
     padding-bottom: 350px;
 
 }
+#room h2 {
+    font-size: 2.8rem;
+    letter-spacing: 1em;
+    text-align: center;
+    font-weight: lighter;
+    padding: 120px 0 50px 0;
+    color: #F9F4DE;
+
+}
+
+
 
 
 .slider {
